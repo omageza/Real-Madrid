@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Real Madrid CF</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="firstpage.css">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="pictures.css">
+
+
+</head>
+<body>
+
+<video autoplay  loop id="myVideo">
+  <source src="RedOne_2015_1.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <div  >
+      <img src="logo.png" alt="Real Madrid logo" class="logo" >
+      <h1 class="font1" >REALMADRID</h1>
+      
+      <img src="13champions.png" alt="13 Champion"  class="champion">
+  </div>
+  <ul>
+    <li><a  href="#home"><b>Home</b></a></li>
+    <li><a href="Championships.html"><b>Championships</b></a></li>
+    <li><a href="#contact"><b>Contact</b></a></li>
+    <li><a href="#about"><b>About</b></a></li>
+  </ul>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
