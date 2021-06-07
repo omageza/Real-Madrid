@@ -1,0 +1,89 @@
+.navbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0 0 10px;
+    background-color: #fff;
+    height:67px;
+    opacity: 0.8;
+    
+}
+.FootballHonoors
+{
+    background: rgba(153, 153, 153, 0.5);
+    color:black;
+    width: 100%;
+    padding: 10px 10px 10px 150px;
+    font-size:x-large;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:#004996;
+    display: inline;
+    float:right;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:#616161;
+    
+  }
+  
+  li a:hover {
+    color:#004996;
+    
+  }
+
+.honour
+{
+    display: flex;
+    border-top: 3px solid   ;
+    border-color:#ae994e;
+    width: 80%;
+    margin:auto;
+    background-color: #e7e7e7;
+    position: relative;
+    
+}
+.number
+{
+    color:#ae994e;
+    position: absolute;
+    left:300px;
+}
+.text
+{
+    position: absolute;
+    left:350px;
+    top:10px;
+    
+}
+.vid
+{
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    width:400px;
+    height:250px;
+
+}
+.smallnum
+{
+    position: absolute;
+    left:350px;
+    top:55px;
+    color: rgb(24, 24, 24);
+}
