@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  
+}
+body
+{
+  position: relative;
+  
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+.page {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 12vw 165vw 5vw;
+  grid-template-areas:
+    "logo logo logo nav nav nav nav nav nav nav"
+    "cont cont cont cont cont cont cont side side side"
+    "foot foot foot foot foot foot foot foot foot foot";
+}
+.tit {
+  grid-area: logo;
+  color: white;
+  position:absolute;
+  top:0.01vw;
+
+  
+}
+.heder
+{
+  background-color:rgba(255, 255, 255, 0.8);
+  display: inline;
+  position:fixed;
+  top:0vw;
+  width: 100%;
+  height:5vw;
+
+}
+.font1
+{
+  color: #004996;
+  font-size: 2vw;
+    display: inline;
+}
+nav {
+  grid-area: nav;
+  color: white;
+  position:fixed;
+  top:0vw;
+  right:0vw;
+}
+section {
+  grid-area: cont;
+  color: black;
+  padding:3vw;
+
+}
+section p
+{
+  font-size:1.5vw;
+}
+
+aside {
+  grid-area: side;
+  background-color: rgb(240, 240, 240);
+  color: white;
+  border:1px solid rgb(160, 160, 160);
+  display: grid;
+  position: relative;
+  height:70vh;
+  font-size: 1.1vw;
+}
+footer {
+  grid-area: foot;
+  background-color: rgb(165, 165, 165);
+  color: black;
+  position: absolute;
+  bottom:0vw;
+  width: 100%;
+}
+.fbfooter
+{
+  width:3vw;
+  height:3vw;
+  left:36vw;
+  position:absolute;
+}
+.instafooter
+{
+  width:3vw;
+  height:3vw;
+  left:40vw;
+  position:absolute;
+}
+.twitterfooter
+{
+  width:3vw;
+  height:3vw;
+  left: 44vw;
+  position:absolute;
+}
+.youtubefooter
+{
+  width:3vw;
+  height:3vw;
+  left:48vw;
+  position:absolute;
+}
+.snapfooter
+{
+  width:3vw;
+  height:3vw;
+  left:52vw;
+  position:absolute;
+}
+.logofooter5
+{
+  width:3vw;
+  height:3vw;
+  left:56vw;
+  position:absolute;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color:#004996;
+  display: inline;
+  float:right;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:#616161;
+  
+}
+
+li a:hover {
+  color:#004996;
+  
+}
+.rmsmalllogo
+{
+  width:2.86vw;
+   height:4vw;
+   display:inline;
+}
+.champion13
+{
+  display:inline;
+  width: 2.8vw;
+  height: 3.733vw;
+}
+.asidelogo
+{
+  width:8.58vw;
+   height:12vw;
+   justify-self: center;
+   display:inline;
+
+}
+.header-table
+{
+  display:inline;
+  color:black;
+  padding:2vw 2vw 100vw 2vw;
+  align-self: start;
+  position: absolute;
+  top: 14vw;
+}
+.test
+{
+  position:absolute;
+  bottom:0;
+  height:15vw;
+  background-color:blueviolet;
+}
