@@ -194,3 +194,17 @@ li a:hover {
   height:15vw;
   background-color:blueviolet;
 }
+@media (max-width:850px) {
+  .page
+  {
+    grid-template-areas:
+    "logo logo logo nav nav nav nav nav nav nav"
+    "cont cont cont cont cont cont cont cont cont cont"
+    "foot foot foot foot foot foot foot foot foot foot";
+  }
+  .aisde
+  {
+    display:none;
+  }
+  
+}
