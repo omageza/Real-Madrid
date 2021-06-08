@@ -24,3 +24,17 @@ div.gallery a img {
   width:13.65vw;
   
 }
+@media (max-width:850px)
+{
+  div.gallery {
+    margin: .5vw;
+    border: .3vw solid #ccc;
+
+    width: 25vw;
+
+    font-size: 3.5vw;
+  }
+  div.gallery a img {
+    width:24.65vw;
+    
+  }
