@@ -1,3 +1,7 @@
+*
+{
+    box-sizing: border-box;
+}
 .navbar
 {
     position: fixed;
@@ -15,7 +19,7 @@
     color:black;
     width: 100%;
     padding: 10px 10px 10px 150px;
-    font-size:x-large;
+    font-size:2vw;
 }
 ul {
     list-style-type: none;
@@ -53,6 +57,7 @@ ul {
     border-top: 3px solid   ;
     border-color:#ae994e;
     width: 80%;
+    height:20vw;
     margin:auto;
     background-color: #e7e7e7;
     position: relative;
@@ -62,28 +67,34 @@ ul {
 {
     color:#ae994e;
     position: absolute;
-    left:300px;
+    left:20vw;
+    font-size:3vw;
 }
 .text
 {
     position: absolute;
-    left:350px;
-    top:10px;
+    left:24vw;
+    top:.7vw;
+    font-size:1.33vw;
     
 }
 .vid
 {
     position: absolute;
     right:0px;
-    bottom:0px;
-    width:400px;
-    height:250px;
+    top:0px;
+    width:30vw;
+    height:18.3333vw;
 
 }
 .smallnum
 {
     position: absolute;
-    left:350px;
-    top:55px;
+    left:24vw;
+    top:4.5vw;
     color: rgb(24, 24, 24);
+    font-size:1.125vw;
+}
+@media (screen) {
+    
 }
