@@ -65,11 +65,12 @@ nav {
 .football
 {
     grid-area: cont;
+    height: 50vw;
 }
 @media (max-width:750px) {
     body
     {
-    grid-template-rows: 12vw 100vw 5vw;
+    grid-template-rows: 2vw 50vw 1vw;
     grid-template-columns: repeat(10, 1fr);
     grid-template-areas:
       "logo logo logo nav nav nav nav nav nav nav"
