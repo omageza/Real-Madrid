@@ -42,6 +42,7 @@ aside table, th
 aside a
 {
     text-decoration: none;
+    font-size: 1.5vw;;
 }
 .rmsmalllogo
 {
@@ -70,7 +71,7 @@ nav {
 @media (max-width:750px) {
     body
     {
-    grid-template-rows: 2vw 50vw 1vw;
+    grid-template-rows: 2vw 110vw 1vw;
     grid-template-columns: repeat(10, 1fr);
     grid-template-areas:
       "logo logo logo nav nav nav nav nav nav nav"
@@ -80,8 +81,23 @@ nav {
     .aside
     {
         position: absolute;
+        top: 10vw;
         float: left;
     }
+    .football
+    {
+        height: 100vw;
+
+    }
+    aside a
+{
+    text-decoration: none;
+    font-size: 3vw;
+}
+aside table td
+{
+    padding-bottom: 10px;
+}
 }
 
     
