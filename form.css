@@ -1,0 +1,39 @@
+body
+{
+    display:flex;
+    justify-content:center;
+    background-image: url("Estadio3D\,0.jpg");
+    background-size:cover;
+    
+}
+.contain-form
+{
+    position:absolute;
+    top:100px;
+}
+.control
+{
+    width: 80%;    
+    height: 25px;
+    border-radius: 10px;
+}
+.sign
+{
+        
+    height: 30px;
+    height: 30px;
+    background-color: #004996;
+    color:white;
+    text-align:center;
+    border-radius: 15px;
+    font-weight:bold ;
+
+}
+#fn ,#ln #passs,#conpasss,#emaill, #mobill 
+{
+    /* background-color: #004996;
+    color: #ae994e; */
+    border-radius: 10px;
+    font-weight:bold;
+    font-size: 14px;
+}

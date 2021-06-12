@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <link rel="stylesheet" href="firstpage.css">
+    <link rel="stylesheet" href="secondpage.css">
+    <link rel="stylesheet" href="form.css">
+    <title>welcome page</title>
+    <meta charset="utf-8">
+    <link type="text/css" href="form.css" rel="stylesheet">
+    <link rel="icon" href="imags/logo.png">
+    </head>
+    <body>
+        <div class="navbar">
+            
+            <img src="logo.png" alt="Real Madrid logo" class="logo" >
+            <h1 class="font1" >REALMADRID</h1>
+            
+            <img src="13champions.png" alt="13 Champion"  class="champion">
+        
+        <ul>
+            <li><a  href="index.html"><b>Home</b></a></li>
+            <li><a href="Championships.html"><b>Championships</b></a></li>
+            <li><a href="about.html"><b>The Club</b></a></li>
+            <li><a href="legends.html"><b>Legendary Squad</b></a></li>
+            <li><a href="form.html"><b>Join Us</b></a></li>
+        </ul>
+        <hr>
+    </div>
+   
+    
+       <div class="contain-form">
+        <h1 style="text-align:center;" >SIGN UP </h1>
+        <h3 style="text-align:center;">To <a style="color: #004996;font-weight: bold;text-decoration: none;" href="https://www.realmadrid.com/en">Real Madrid C.F.</a> Unofficial Website </h3>
+        <form  action="index.html" method="post"  onsubmit="return validation()" autocomplete="on" id="myform">
+            <input name="name" type="text" placeholder="First name" id="user" class="control"  ><br><span id="fn" ></span>
+            <br><input name="name" type="text" placeholder="Last name" id="user" class="control"  ><br><span id="ln" ></span>
+            <br><span><input name="passward" type="password" placeholder="Use small, capital and special characters and numbers" id="pass" class="control" ><br><span id="passs"></span>
+            <br><input name="passward" type="password" placeholder="confirm passward" id="conpass" class="control" ><br><span id="conpasss"></span>
+            <br><input name="email" type="email" placeholder="email" id="email" class="control"><br><span id="emaill"></span>
+            <br><input name="phone" type="tel" placeholder="phone number" id="mobile" class="control" ><br><span id="mobill"></span>
+            <br><input name="btn" type="submit" value="Sign up" class="sign" id="submit"><br>
+            </form>
+        
+        </div> 
+        
+    <script type="text/javascript" src="form.js"></script>
+    </body>
+
+
+</HTML>
