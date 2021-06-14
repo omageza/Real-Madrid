@@ -4,6 +4,7 @@ body
     justify-content:center;
     background-image: url("Estadio3D\,0.jpg");
     background-size:cover;
+    background-repeat: no-repeat;
     
 }
 .contain-form
